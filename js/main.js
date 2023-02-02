@@ -140,6 +140,7 @@ jQuery(document).ready(function() {
         const modalWindow = jQuery("#info");
         modalWindow.find("[data-photo]").attr("src", infoPeople[index].photo);
         modalWindow.find("[data-name]").text(infoPeople[index].name);
+        modalWindow.find("[data-postion]").text(infoPeople[index].position);
         modalWindow.find("[data-link]").attr("href", infoPeople[index].link);
         modalWindow.find("[data-short]").text(infoPeople[index].short);
         let content = "";
